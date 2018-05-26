@@ -13,7 +13,7 @@ public final class Negociacao implements Serializable{
 
 	public Negociacao(double preco, int quantidade, Calendar data) {
 		
-		if (data == null2) {
+		if (data == null) {
 			throw new IllegalArgumentException("data nao pode ser nula");
 		}
 		
